@@ -37,6 +37,6 @@ public class BuildResult
     @Override
     public String toString()
     {
-        return String.format( "%s\n%s", successful ? "+1" : "-1", url );
+        return String.format( "[%s](%s)", successful ? "+1" : "-1", url );
     }
 }
